@@ -1,4 +1,5 @@
 import mysql.connector
+import requests
 mydb = mysql.connector.connect(
   host="remotemysql.com",
   user="Wox2VHeqfX",
