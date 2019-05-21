@@ -2,10 +2,11 @@ import mysql.connector
 import requests
 mydb = mysql.connector.connect(
   host="remotemysql.com",
-  user="Wox2VHeqfX",
-  passwd="9bcMKoUSKy",
-  database="Wox2VHeqfX"
+  user="ej884iu1O8",
+  passwd="b4j45Ur9bF",
+  database="ej884iu1O8"
 )
+
 mycursor = mydb.cursor() 
 
 def add(ts,pew):
